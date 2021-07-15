@@ -32,3 +32,69 @@ color:blue;
     top:0;
     background-color: lightblue;
   }
+  .rowstring
+  {
+display:flex;
+  }
+.coloumnstring
+{
+  flex:30.3%;
+  padding:3px;
+  width:300px;
+}
+.rowkey
+{
+display:flex;
+}
+.coloumnkey
+{
+flex:30.3%;
+padding:3px;
+width:300px;
+}
+.rowwind
+{
+display:flex;
+}
+.coloumnwind
+{
+flex:30.3%;
+padding:3px;
+width:300px;
+}
+.rowperc
+{
+display:flex;
+}
+.coloumnperc
+{
+flex:30.3%;
+padding:3px;
+width:300px;
+}
+.topnav {
+  background-color:lightblue;
+  overflow: hidden;
+}
+.topnav a {
+  float: right;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color:lightpink;
+  color: blue;
+}
+.topnav a.active {
+  background-color: lightpink;
+  color: blue;
+}
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color:lightblue;
+  color: black;
+}
