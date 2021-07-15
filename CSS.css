@@ -98,3 +98,14 @@ width:300px;
   background-color:lightblue;
   color: black;
 }
+.rowtu
+{
+display:flex;
+}
+.coloumntu
+{
+flex:33.3%;
+padding:3px;
+width:500px;
+}
+
