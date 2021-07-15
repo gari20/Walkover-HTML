@@ -1,0 +1,34 @@
+.text{
+    background-color: lightblue;
+}
+.image
+{
+ height:500px;
+width:100%;
+}
+.small
+{
+color:blue;
+}
+.row {
+    display: flex;
+  }
+  
+  .coloumn {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .row1{
+      display: flex;
+  }
+  .coloumn1{
+      flex:30.3%;
+       padding:3px;
+       width:300px;
+      
+  }
+  .stick{
+    position: sticky;
+    top:0;
+    background-color: lightblue;
+  }
