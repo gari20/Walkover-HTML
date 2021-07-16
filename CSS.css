@@ -88,10 +88,7 @@ width:300px;
   background-color:lightpink;
   color: blue;
 }
-.topnav a.active {
-  background-color: lightpink;
-  color: blue;
-}
+
 .about-section {
   padding: 50px;
   text-align: center;
@@ -108,4 +105,66 @@ flex:33.3%;
 padding:3px;
 width:500px;
 }
+.rowtut
+{
+display:flex;
+}
+.coloumntut
+{
+flex:33.3%;
+padding:3px;
+width:500px;
+}
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background:lightpink;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  
+  background-color:lightcoral;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid blue;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color:blue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 10%;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:10;
+}
+
+/* Add a blue text color to links */
+
+/* Set a grey background color and center the text of the "sign in" section */
 
