@@ -11,11 +11,11 @@ h2{
 }
 .box{
     width:50%;
-    height:400px;
+    height:300px;
     border: 1px solid red;
     float: left;
     box-sizing: border-box;
-    padding: 1em;
+    padding: 0.5em;
 }
 .cont{
     width: 100%;
@@ -27,7 +27,7 @@ h2{
     height: 80%;
     position: relative;
     top: 2.5em;
-    margin:auto;
+    margin: 0.5em;;
     background: yellow;
     box-sizing: border-box;
     padding: 0.5em;
@@ -36,7 +36,7 @@ h2{
     width: 33.33%;
     height: 800px;
     border: 1px solid red;
-    padding: 1em;
+    padding: 0.5em;
 }
 .col{
     width: 100%;
@@ -58,19 +58,78 @@ h2{
     
    
 }
+.row2{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height:100px;
+    border: 5px solid lightpink;
+    padding: 0.5em;
+    margin: 0.5em;
+  }
+  
+  /* Clear floats after the columns */
+  .coloumn2:after {
+   
+    display: table;
+    clear: both;
+   
+    border: 5px solid lightpink;
+    padding: 0.5em;
+    margin: 0.5em;
+    
+  }
+  .rowmain{
+    content: "";
+  display: table;
+  clear: both;
+  }
+  .columnmain{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+  }
+  .row1{
+      float:left;
+      width:100%;
+      padding:0.5em;
+      height:100px;
+      border:5px solid lightpink;
+      margin: 0.5em;
+  }
+  .column1:after{
+      display: table;
+      border: 5px solid lightpink;
+      padding: 0.5em;
+      margin: 0.5em;
+  }
+  .border-right{
+      border-right:5px solid lightpink;
+      height: 100%;
+  }
+  
+  .btn-holder {
+    padding: 0.5em;
+    background-color: blue;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
 .topnav {
-  background-color:lightblue;
-  overflow: hidden;
-}
-.topnav a {
-  float: right;
-  color: blue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a:hover {
-  background-color:lightpink;
-  color: blue;
-}
+    background-color:lightblue;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: right;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:lightpink;
+    color: blue;
+  }
+  
