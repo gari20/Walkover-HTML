@@ -1,121 +1,139 @@
-body{
-    margin:0;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
-h2{
-   text-align: center;
+
+body {
+    font-family: raleway, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.grid{
-    width:66.6%;
-    box-sizing:border-box;
+
+.final{
+    width: 100%;
+    height:600px;
+}
+.box1{
+    width: 700px;
+  padding: 10px;
+
+  border: 5px solid gray;
+  margin: 0;
+  height:630px;
+  background-color: orange;
+
+}
+.inside1{
+    width:100%;
+    height:300px;
+    
+    background-color:skyblue;
     float:left;
+    
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: -10px;
+    margin-top: -10px;
+    left: 0px;
+    display: flex;
+    box-sizing: border-box;
 }
-.box{
+.inside2{
+    width:100%;
+    height:300px;
+   
+    background-color:skyblue;
+    float:left;
+    margin-right:1em;
+    margin-left: -10px;
+    margin-bottom: 0px;
+    bottom: 0px;
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+.box2{
+    width: 700px;
+  padding: 10px;
+
+  border: 5px solid gray;
+  margin:0px;
+  height:630px;
+  background-color: orange;
+
+}
+.insidea{
     width:50%;
     height:300px;
-    border: 1px solid red;
-    float: left;
-    box-sizing: border-box;
-    padding: 0.5em;
-}
-.cont{
-    width: 100%;
-    height: 100%;
-    background: crimson;
-}
-.inbox{
-    width: 80%;
-    height: 80%;
-    position: relative;
-    top: 2.5em;
-    margin: 0.5em;;
-    background: yellow;
-    box-sizing: border-box;
-    padding: 0.5em;
-}
-.long{
-    width: 33.33%;
-    height: 800px;
-    border: 1px solid red;
-    padding: 0.5em;
-}
-.col{
-    width: 100%;
-    height: 100%;
-    background: crimson;
-}
-@media screen and (max-width:768px){
-    .grid{
-        width: 100%;
-    }
-    .box{
-        width: 100%;
-    }
-}
-@media screen and (min-width:769px) and (max-width:1200px){
-    .grid{
-        width: 100%;
-    }
     
-   
-}
-.row2{
-    float: left;
-    width: 100%;
-    padding: 10px;
-    height:100px;
-    border: 5px solid lightpink;
-    padding: 0.5em;
-    margin: 0.5em;
-  }
-  
-  /* Clear floats after the columns */
-  .coloumn2:after {
-   
-    display: table;
-    clear: both;
-   
-    border: 5px solid lightpink;
-    padding: 0.5em;
-    margin: 0.5em;
+    background-color:skyblue;
+    float:left;
     
-  }
-  .rowmain{
-    content: "";
-  display: table;
-  clear: both;
-  }
-  .columnmain{
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: 300px;
-  }
-  .row1{
-      float:left;
-      width:100%;
-      padding:0.5em;
-      height:100px;
-      border:5px solid lightpink;
-      margin: 0.5em;
-  }
-  .column1:after{
-      display: table;
-      border: 5px solid lightpink;
-      padding: 0.5em;
-      margin: 0.5em;
-  }
-  .border-right{
-      border-right:5px solid lightpink;
-      height: 100%;
-  }
-  
-  .btn-holder {
-    padding: 0.5em;
-    background-color: blue;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-top: -10px;
+    left: 0px;
+    display: flex;
+    box-sizing: border-box;
 }
+.insideb{
+    width:90%;
+    height:300px;
+   
+    background-color:skyblue;
+    float:left;
+    margin-right:1em;
+    margin-left:1em;
+    margin-bottom: 0px;
+    bottom: 0px;
+    display: flex;
+    box-sizing: border-box;
+   
+    
+}
+
+.green {
+    background-color: green;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.green a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.green a:hover {
+    text-decoration: none ;
+}
+@media (max-width:768px) {
+    .box1  {
+        width: calc(100% - 2em);
+        height: 47%;
+    }
+    .box1 .inside1{
+        height:50%;
+    }
+    .box1 .inside2{
+        height:50%;
+    }
+}
+@media (max-width:768px) {
+    .box2  {
+        width: calc(100% - 2em);
+        height: 47%;
+    }
+    .box2 .insidea{
+        height:50%;
+    }
+    .box2 .insideb{
+        height:50%;
+    }
+}
+
 .topnav {
     background-color:lightblue;
     overflow: hidden;
